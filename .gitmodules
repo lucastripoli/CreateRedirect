@@ -1,0 +1,3 @@
+[submodule "redirectToLocal"]
+	path = redirectToLocal
+	url = https://github.com/lucastripoli/redirectToLocal.git
