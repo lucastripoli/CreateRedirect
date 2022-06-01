@@ -2,7 +2,7 @@ const localtunnel = require('localtunnel');
 var exec = require('child_process').exec;
 
 (async () => {
-  const tunnel = await localtunnel({ port: 80, local_host: "drupal9.docksal" });
+  const tunnel = await localtunnel({ port: 80, local_host: "boilerplate-drupal9-composer.docksal" });
 
   // the assigned public url for your tunnel
   // i.e. https://abcdefgjhij.localtunnel.me
